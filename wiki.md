@@ -39,6 +39,7 @@ sudo systemctl enable docker
 # Setting up docker for user
 sudo usermod -aG docker ${USER}
 ```
+After executing this do restart or user logout. OR execute `su - ${USER}` in terminal.
 
 ### Getting Started
    
